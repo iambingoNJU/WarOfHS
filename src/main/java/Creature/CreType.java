@@ -1,0 +1,8 @@
+package Creature;
+
+public enum  CreType {
+    NONE,
+    YEYE,
+    HULUWA1, HULUWA2, HULUWA3, HULUWA4, HULUWA5, HULUWA6, HULUWA7,
+    SHEJING, XIEZIJING, XIAOLOULUO
+}
