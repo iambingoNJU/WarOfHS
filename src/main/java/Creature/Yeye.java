@@ -7,6 +7,10 @@ import java.util.ArrayList;
 
 public class Yeye extends Human {
 
+    public Yeye() {
+        super();
+    }
+
     public Yeye(int x, int y, BattleField battleField) {
         super(x, y, battleField);
         setImage(

@@ -11,6 +11,9 @@ public class Creature extends Thing2D implements Runnable {
     private Random rand;
     private boolean isDead;
 
+    public Creature() {
+        super();
+    }
     public Creature(int x, int y, BattleField battleField) {
         super(x, y);
         this.bf = battleField;

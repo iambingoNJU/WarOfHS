@@ -8,6 +8,9 @@ public class Thing2D {
     private int y;
     private Image image;
 
+    public Thing2D() {
+    }
+
     public Thing2D(int x, int y) {
         this.x = x;
         this.y = y;

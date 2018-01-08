@@ -9,6 +9,10 @@ public class Huluwa extends Human {
     private COLOR color;
     private SENIORITY seniority;
 
+    public Huluwa() {
+        super();
+    }
+
     public Huluwa(int x, int y, BattleField battleField, COLOR color, SENIORITY seniority) {
         super(x, y, battleField);
         this.color = color;

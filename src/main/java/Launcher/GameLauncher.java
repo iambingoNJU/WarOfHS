@@ -33,13 +33,13 @@ public class GameLauncher extends JFrame {
 
         startBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                new BattleGround().battle();
+                new BattleGround().battle(false);
             }
         });
 
         replayBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // TODO:
+                new BattleGround().battle(true);
             }
         });
 

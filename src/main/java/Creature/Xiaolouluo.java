@@ -7,6 +7,10 @@ import java.util.ArrayList;
 
 public class Xiaolouluo extends Monster {
 
+    public Xiaolouluo() {
+        super();
+    }
+
     public Xiaolouluo(int x, int y, BattleField battleField) {
         super(x, y, battleField);
         setImage(
