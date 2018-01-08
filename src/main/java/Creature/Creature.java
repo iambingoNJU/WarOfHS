@@ -26,7 +26,7 @@ public class Creature extends Thing2D implements Runnable {
         isDead = dead;
     }
 
-    public boolean move(int offx, int offy) {
+    public synchronized boolean move(int offx, int offy) {
         int x = getX() + offx;
         int y = getY() + offy;
         if((bf.getMap()[y][x] == CreType.NONE) &&
@@ -70,7 +70,6 @@ public class Creature extends Thing2D implements Runnable {
         }
 
         if(idx == -1) {
-            System.out.println("end");
             return false;
         }
 

@@ -237,7 +237,7 @@ public class BattleField extends JPanel implements Runnable {
         public void keyPressed(KeyEvent e) {
             int key = e.getKeyCode();
 
-            if(key == KeyEvent.VK_SPACE) {
+            if((key == KeyEvent.VK_SPACE) && (ended == 0)) {
                 if(state == 0) {
                     state = 1;
                     creatureRun();
